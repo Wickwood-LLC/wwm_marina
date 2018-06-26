@@ -73,33 +73,6 @@
       <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
         <div id="header-group" class="header-group region <?php print $grid_width; ?>">
           <div id="header-group-inner" class="header-group-inner inner clearfix">
-
-            <?php if ($logo || $site_name || $site_slogan): ?>
-            <div id="header-site-info" class="header-site-info clearfix">
-              <div id="header-site-info-inner" class="header-site-info-inner gutter">
-                <?php if ($logo): ?>
-                <div id="logo">
-                  <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-                </div>
-                <?php endif; ?>
-                <?php if ($site_name || $site_slogan): ?>
-                <div id="site-name-wrapper" class="clearfix">
-                  <?php if ($site_name): ?>
-                    <?php if ($title): ?>
-                    <div id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></div>
-                    <?php else: /* Use h1 when the content title is empty */ ?>
-                    <h1 id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></h1>
-                    <?php endif; ?>
-                  <?php endif; ?>
-                  <?php if ($site_slogan): ?>
-                  <span id="slogan"><?php print $site_slogan; ?></span>
-                  <?php endif; ?>
-                </div><!-- /site-name-wrapper -->
-                <?php endif; ?>
-              </div><!-- /header-site-info-inner -->
-            </div><!-- /header-site-info -->
-            <?php endif; ?>
-
             <?php print render($page['header']); ?>
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
