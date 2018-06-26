@@ -163,6 +163,10 @@ html {
   margin: 0 15px 0 0;
 }
 
+.pane-page-logo img {
+  height: 13vw;
+}
+
 #site-name-wrapper {
   float: left;
 }
@@ -175,12 +179,28 @@ html {
   border: none;
 }
 
+.pane-page-site-name a {
+  font-size: 7.5vw;
+  width: 100%;
+  margin-left: -6vw;
+  line-height: 1;
+  text-decoration: none;
+  color: #a7cf38;
+  text-shadow: #7b7b7b -3px 0px 1px;
+}
+
 /* Typography for site slogan */
 
 #slogan {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-size: 116.7%; /* 14px/12px */
   margin-top: -5px;
+}
+
+.pane-page-slogan {
+  font-family: Futura;
+  line-height: 1;
+  font-size: 2.1vw;
 }
 
 #header-group-inner {
