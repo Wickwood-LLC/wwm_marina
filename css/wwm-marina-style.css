@@ -856,6 +856,7 @@ ul.sf-vertical li ul li ul {
   margin-top: -4px; }
 
 #superfish-1-toggle {
+  border: 0;
   display: block;
   text-align: center;
   background-color: #008db0;
@@ -864,29 +865,36 @@ ul.sf-vertical li ul li ul {
   line-height: 1.5;
   padding: 0.5em 1em;
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 1em; }
   #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
-    border-radius: 10px 10px 0 0; }
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0; }
   #superfish-1-toggle:hover {
     background-color: #7bc; }
 
-#superfish-1-accordion li {
-  background-color: #e9eaec;
-  line-height: 1.5;
-  font-size: 16px; }
-  #superfish-1-accordion li.active-trail {
-    background-color: #00728e; }
-    #superfish-1-accordion li.active-trail > a {
-      color: white; }
-  #superfish-1-accordion li:last-child {
-    border-radius: 0 0 10px 10px; }
-  #superfish-1-accordion li:hover {
-    background-color: #9ec5d0; }
-    #superfish-1-accordion li:hover > a {
-      color: white; }
-  #superfish-1-accordion li a {
-    color: #00728e; }
+#superfish-1-accordion {
+  width: 100%;
+  margin-bottom: 1em; }
+  #superfish-1-accordion li {
+    background-color: #e9eaec;
+    line-height: 1.5;
+    font-size: 16px; }
+    #superfish-1-accordion li.active-trail {
+      background-color: #00728e; }
+      #superfish-1-accordion li.active-trail > a {
+        color: white; }
+    #superfish-1-accordion li:last-child {
+      border-radius: 0 0 10px 10px; }
+    #superfish-1-accordion li:hover {
+      background-color: #9ec5d0; }
+      #superfish-1-accordion li:hover > a {
+        color: white; }
+    #superfish-1-accordion li a {
+      color: #00728e;
+      background: transparent; }
 
 /* @end vertical superfish*/
 /* @end menus */

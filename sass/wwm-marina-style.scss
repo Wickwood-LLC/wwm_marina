@@ -981,6 +981,7 @@ ul.sf-vertical li ul li ul {
 }
 
 #superfish-1-toggle {
+  border: 0;
   display: block;
   text-align: center;
   background-color: #008db0;
@@ -990,10 +991,13 @@ ul.sf-vertical li ul li ul {
   padding: 0.5em 1em;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 1em;
 
   &.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
   }
 
   &:hover {
@@ -1002,6 +1006,9 @@ ul.sf-vertical li ul li ul {
 }
 
 #superfish-1-accordion {
+  width: 100%;
+  margin-bottom: 1em;
+
   li {
     background-color: #e9eaec;
     line-height: 1.5;
@@ -1029,6 +1036,7 @@ ul.sf-vertical li ul li ul {
 
     a {
       color: #00728e;
+      background: transparent;
     }
   }
 }
