@@ -871,6 +871,23 @@ ul.sf-vertical li ul li ul {
   #superfish-1-toggle:hover {
     background-color: #7bc; }
 
+#superfish-1-accordion li {
+  background-color: #e9eaec;
+  line-height: 1.5;
+  font-size: 16px; }
+  #superfish-1-accordion li.active-trail {
+    background-color: #00728e; }
+    #superfish-1-accordion li.active-trail > a {
+      color: white; }
+  #superfish-1-accordion li:last-child {
+    border-radius: 0 0 10px 10px; }
+  #superfish-1-accordion li:hover {
+    background-color: #9ec5d0; }
+    #superfish-1-accordion li:hover > a {
+      color: white; }
+  #superfish-1-accordion li a {
+    color: #00728e; }
+
 /* @end vertical superfish*/
 /* @end menus */
 /* @group Pagers
