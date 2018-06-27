@@ -242,7 +242,7 @@ html {
   background-image: -moz-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* firefox */
   border-top: 2px solid #fff;
-  padding-top: 2px; }
+  padding-top: 20px; }
 
 /* all IEs */
 .ie .main-wrapper {
@@ -441,6 +441,45 @@ form input.form-submit {
   -moz-outline-radius: 4px;
   -webkit-border-radius: 4px; }
 
+form#user-login {
+  border: 1px solid #27638c;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em; }
+  form#user-login .form-item-name,
+  form#user-login .form-item-pass {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    form#user-login .form-item-name label,
+    form#user-login .form-item-pass label {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 auto;
+              flex: 0 auto;
+      width: 115px; }
+    form#user-login .form-item-name input,
+    form#user-login .form-item-pass input {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      width: calc(100% - 115px); }
+    form#user-login .form-item-name .description,
+    form#user-login .form-item-pass .description {
+      -webkit-box-flex: 100%;
+          -ms-flex: 100%;
+              flex: 100%; }
+  form#user-login .form-actions {
+    text-align: center;
+    margin-bottom: 0; }
+
+.g-recaptcha {
+  display: table;
+  margin: auto; }
+
 /* all IEs */
 .ie form input.form-submit {
   background: none;
@@ -611,6 +650,9 @@ ul.sf-horizontal li {
   margin: 0;
   text-transform: uppercase;
   width: auto; }
+
+.title {
+  text-align: center; }
 
 /* @end typography */
 /* @group Top level styling */
