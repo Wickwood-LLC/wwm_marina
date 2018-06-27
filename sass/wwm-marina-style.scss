@@ -1082,17 +1082,20 @@ table.update tr.warning .project a:visited,
   color: #900;
 }
 
-div.messages,
-div.messages.status {
-  background: #fffce3;
-  border: 2px solid #eed300;
-  color: #c28e00;
-  font-size: 14px;
-  margin: 20px 0pt;
-  padding: 10px;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
+div.content-messages {
+  div.messages,
+  div.messages.status {
+    background: #fffce3;
+    border: 2px solid #eed300;
+    color: #c28e00;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 20px 0pt;
+    padding: 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+  }
 }
 
 div.messages ul {

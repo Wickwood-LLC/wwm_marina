@@ -935,11 +935,12 @@ table.update tr.warning .project a:visited,
 .version-status .not-current {
   color: #900; }
 
-div.messages,
-div.messages.status {
+div.content-messages div.messages,
+div.content-messages div.messages.status {
   background: #fffce3;
   border: 2px solid #eed300;
   color: #c28e00;
+  font-weight: normal;
   font-size: 14px;
   margin: 20px 0pt;
   padding: 10px;
