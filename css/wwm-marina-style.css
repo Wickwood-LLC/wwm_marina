@@ -186,10 +186,11 @@ html {
   border-top: 3px solid #a7ce38;
   background-color: #2f76a5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background-image: linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   /* webkit */
   background-image: -moz-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* firefox */
@@ -237,7 +238,9 @@ html {
   /* old browsers */
   background-image: linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* w3c */
+  background-image: -o-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4edc2), to(#f5f7e7), color-stop(0%, #e4edc2), color-stop(10%, #f5f7e7));
   /* webkit */
   background-image: -moz-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* firefox */
@@ -265,10 +268,11 @@ html {
   border-top: 3px solid #a7ce38;
   background-color: #2f76a5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background-image: linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   /* webkit */
   background-image: -moz-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* firefox */
@@ -418,10 +422,11 @@ html {
 form input.form-submit {
   background-color: #286e9b;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4186b5), color-stop(50%, #286e9b), to(#4186b5));
   background-image: linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4186b5), to(#4186b5), color-stop(50%, 286000000000b));
   /* webkit */
   background-image: -moz-linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
   /* firefox */
@@ -448,30 +453,19 @@ form#user-login {
   margin-top: 1em; }
   form#user-login .form-item-name,
   form#user-login .form-item-pass {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+    flex-flow: row wrap; }
     form#user-login .form-item-name label,
     form#user-login .form-item-pass label {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 auto;
-              flex: 0 auto;
+      flex: 0 auto;
       width: 115px; }
     form#user-login .form-item-name input,
     form#user-login .form-item-pass input {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      flex: 1;
       width: calc(100% - 115px); }
     form#user-login .form-item-name .description,
     form#user-login .form-item-pass .description {
-      -webkit-box-flex: 100%;
-          -ms-flex: 100%;
-              flex: 100%; }
+      flex: 100%; }
   form#user-login .form-actions {
     text-align: center;
     margin-bottom: 0; }
@@ -498,10 +492,11 @@ form input.form-submit.hover,
 form input.form-submit:focus {
   background-color: #4186b5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#286e9b), color-stop(50%, #4186b5), to(#286e9b));
   background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#286e9b), to(#286e9b), color-stop(50%, 4186b5));
   /* webkit */
   background-image: -moz-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* firefox */
@@ -529,10 +524,11 @@ form input.form-submit:focus {
 .form-item textarea {
   background-color: #f4f8fb;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));
   background-image: linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));
   /* webkit */
   background-image: -moz-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* firefox */
@@ -701,10 +697,11 @@ ul.sf-horizontal li {
 .main-menu ul.menu li.active-trail a:visited {
   background-color: #b5ee48;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
   background-image: linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), to(#95cf1a), color-stop(40%, #95cf1a));
   /* webkit */
   background-image: -moz-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* firefox */
@@ -935,8 +932,11 @@ table.update tr.warning .project a:visited,
 .version-status .not-current {
   color: #900; }
 
-div.content-messages div.messages,
-div.content-messages div.messages.status {
+div.content-messages div.messages, div.content-help div.help {
+  font-weight: normal; }
+
+div.messages,
+div.messages.status {
   background: #fffce3;
   border: 2px solid #eed300;
   color: #c28e00;
@@ -1296,4 +1296,5 @@ div.poll div.bar div.foreground {
 .fusion-inline-menu ul.links li.last a:visited {
   padding-right: 0;
   border-right: none; }
+
 /*# sourceMappingURL=wwm-marina-style.css.map */
