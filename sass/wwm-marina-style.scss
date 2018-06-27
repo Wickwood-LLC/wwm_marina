@@ -278,6 +278,7 @@ html {
 
 .breadcrumbs {
   width: auto;
+  margin: 0;
 }
 
 /* Main Area (content + sidebars + preface bottom + postscript top)
@@ -1083,7 +1084,10 @@ table.update tr.warning .project a:visited,
 }
 
 div.content-messages div.messages, div.content-help div.help {
+  border: 3px solid #8DC478;
   font-weight: normal;
+  margin: 0.75em 0;
+  padding: 7px 7px 7px 21px;
 }
 
 div.messages,
