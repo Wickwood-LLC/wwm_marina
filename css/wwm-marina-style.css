@@ -303,6 +303,16 @@ html {
   padding: 10px 0;
   text-align: center; }
 
+.copyright p {
+  text-align: center;
+  margin-bottom: 0; }
+
+.pane-menu-menu-footer-links ul.menu {
+  text-align: center; }
+  .pane-menu-menu-footer-links ul.menu li {
+    display: inline-block;
+    margin-right: 2em; }
+
 /* @end footer*/
 .ie6 .grid-type-fluid #header-top,
 .ie6 .grid-type-fluid #header-group,
