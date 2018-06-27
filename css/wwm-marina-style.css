@@ -227,6 +227,9 @@ html {
 #content-content .inner {
   margin-top: 0; }
 
+.breadcrumbs {
+  width: auto; }
+
 /* Main Area (content + sidebars + preface bottom + postscript top)
 -------------------------------------------------------------- */
 .main-wrapper {
@@ -332,9 +335,10 @@ html {
 /-------------------------------------------------------------- */
 #content-tabs {
   background-color: transparent;
-  float: left;
-  margin: 20px 0;
-  padding: 0; }
+  float: right;
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: auto; }
 
 #content-tabs ul.primary,
 #content-tabs ul.secondary {
