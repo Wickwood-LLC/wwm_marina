@@ -239,7 +239,7 @@ html {
   background-image: -moz-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* firefox */
   border-top: 2px solid #fff;
-  padding-top: 40px; }
+  padding-top: 2px; }
 
 /* all IEs */
 .ie .main-wrapper {
@@ -590,6 +590,11 @@ ul.sf-horizontal li {
   display: block;
   height: 0;
   visibility: hidden; }
+
+.sf-sub-indicator {
+  position: static;
+  display: inline-block;
+  margin-left: 5px; }
 
 /* @end */
 /* @group  Typography */
