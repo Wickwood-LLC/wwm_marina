@@ -1087,8 +1087,7 @@ div.messages.status {
   background: #fffce3;
   border: 2px solid #eed300;
   color: #c28e00;
-  font-weight: bold;
-  font-size: 116.7%; /* 14px/12px */
+  font-size: 14px;
   margin: 20px 0pt;
   padding: 10px;
   border-radius: 6px;
@@ -1098,6 +1097,11 @@ div.messages.status {
 
 div.messages ul {
   list-style-position: inside;
+
+  li {
+    list-style: disc;
+    margin-bottom: 0;
+  }
 }
 
 div.messages em {
