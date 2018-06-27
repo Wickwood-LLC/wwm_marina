@@ -144,7 +144,7 @@ html {
   font-weight: normal;
   border: none; }
 
-.pane-page-site-name a {
+.pane-page-site-name .pane-content a {
   font-size: 6.3vw;
   width: 100%;
   margin-left: -5vw;
@@ -161,9 +161,9 @@ html {
   margin-top: -5px; }
 
 .pane-page-slogan {
-  font-family: Futura;
   line-height: 1;
-  font-size: 1.9vw; }
+  font-size: 1.9vw;
+  color: #444; }
 
 #header-group-inner {
   padding: 20px 0; }
