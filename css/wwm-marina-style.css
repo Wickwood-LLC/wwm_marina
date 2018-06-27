@@ -855,6 +855,22 @@ ul.sf-vertical li ul li.last {
 ul.sf-vertical li ul li ul {
   margin-top: -4px; }
 
+#superfish-1-toggle {
+  display: block;
+  text-align: center;
+  background-color: #008db0;
+  color: white;
+  border-radius: 10px;
+  line-height: 1.5;
+  padding: 0.5em 1em;
+  font-size: 18px;
+  font-weight: bold; }
+  #superfish-1-toggle.sf-expanded {
+    background-color: #7bc;
+    border-radius: 10px 10px 0 0; }
+  #superfish-1-toggle:hover {
+    background-color: #7bc; }
+
 /* @end vertical superfish*/
 /* @end menus */
 /* @group Pagers
