@@ -702,16 +702,16 @@ ul.sf-horizontal li {
   -moz-border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0; }
 
-.block-superfish ul.sf-horizontal li a:hover,
-.block-superfish ul.sf-horizontal li a:focus,
-.block-superfish ul.sf-horizontal li.sfHover > a:link,
-.block-superfish ul.sf-horizontal li.sfHover > a:visited,
-.block-superfish ul.sf-horizontal li.active-trail > a:link,
-.block-superfish ul.sf-horizontal li.active-trail > a:visited,
-.main-menu ul.menu li a:hover,
-.main-menu ul.menu li a:focus,
-.main-menu ul.menu li.active-trail a:link,
-.main-menu ul.menu li.active-trail a:visited {
+.block-superfish ul.sf-horizontal > li a:hover,
+.block-superfish ul.sf-horizontal > li a:focus,
+.block-superfish ul.sf-horizontal > li.sfHover > a:link,
+.block-superfish ul.sf-horizontal > li.sfHover > a:visited,
+.block-superfish ul.sf-horizontal > li.active-trail > a:link,
+.block-superfish ul.sf-horizontal > li.active-trail > a:visited,
+.main-menu ul.menu > li a:hover,
+.main-menu ul.menu > li a:focus,
+.main-menu ul.menu > li.active-trail a:link,
+.main-menu ul.menu > li.active-trail a:visited {
   background-color: #b5ee48;
   /* old browsers */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
