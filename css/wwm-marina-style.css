@@ -239,14 +239,11 @@ html {
 /* Main Area (content + sidebars + preface bottom + postscript top)
 -------------------------------------------------------------- */
 .main-wrapper {
-  background-color: #e4edc2;
+  background-color: #f2fbd2;
   /* old browsers */
-  background-image: linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2fbd2), to(#f5f7e7));
+  background-image: linear-gradient(#f2fbd2, #f5f7e7);
   /* w3c */
-  /* opera */
-  /* webkit */
-  background-image: -moz-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
-  /* firefox */
   border-top: 2px solid #fff;
   padding-top: 20px; }
 
