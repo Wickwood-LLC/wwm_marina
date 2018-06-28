@@ -1394,4 +1394,13 @@ div.poll div.bar div.foreground {
 .fusion-inline-menu ul.links li.last a:visited {
   padding-right: 0;
   border-right: none; }
+
+.boxed {
+  background-color: white;
+  border-color: #27638c;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px;
+  margin: 1em 0; }
 /*# sourceMappingURL=wwm-marina-style.css.map */
