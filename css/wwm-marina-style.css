@@ -905,7 +905,8 @@ ul.sf-vertical li ul li ul {
   border-radius: 0 0 10px 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 1em; }
   #superfish-1-accordion li {
     background-color: white;
     border: 1px solid #ddd;
@@ -943,7 +944,9 @@ ul.sf-vertical li ul li ul {
         background: initial; }
   #superfish-1-accordion > li.last {
     border-radius: 0 0 10px 10px; }
-    #superfish-1-accordion > li.last a, #superfish-1-accordion > li.last .last, #superfish-1-accordion > li.last .last a {
+    #superfish-1-accordion > li.last.sf-expanded a {
+      border-radius: 0; }
+    #superfish-1-accordion > li.last > a, #superfish-1-accordion > li.last .last, #superfish-1-accordion > li.last .last > a {
       border-radius: 0 0 10px 10px; }
 
 /* @end vertical superfish*/

@@ -1028,47 +1028,13 @@ ul.sf-vertical li ul li ul {
   }
 }
 
-// #superfish-1-accordion {
-//   width: 100%;
-//   margin-bottom: 1em;
-
-//   li {
-//     background-color: #e9eaec;
-//     line-height: 1.5;
-//     font-size: 16px;
-
-//     &.active-trail {
-//       background-color: #00728e;
-
-//       > a {
-//         color: white;
-//       }
-//     }
-
-//     &:last-child {
-//       border-radius: 0 0 10px 10px;
-//     }
-
-//     &:hover {
-//       background-color: #9ec5d0;
-
-//       > a {
-//         color: white;
-//       }
-//     }
-
-//     a {
-//       color: #00728e;
-//       background: transparent;
-//     }
-//   }
-// }
 #superfish-1-accordion {
   border: 1px solid #689a04;
   border-top: 0px;
   border-radius: 0 0 10px 10px;
   box-sizing: border-box;
   width: 100%;
+  margin-bottom: 1em;
 
   li {
     background-color: white;
@@ -1131,7 +1097,11 @@ ul.sf-vertical li ul li ul {
   > li.last {
     border-radius: 0 0 10px 10px;
 
-    a, .last, .last a {
+    &.sf-expanded a {
+      border-radius: 0;
+    }
+
+    > a, .last, .last > a {
       border-radius: 0 0 10px 10px;
     }
   }
