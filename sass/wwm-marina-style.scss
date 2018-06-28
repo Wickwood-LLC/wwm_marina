@@ -550,6 +550,12 @@ form#user-pass {
   }
 }
 
+form#user-pass {
+  .form-item-name label {
+    width: 280px;
+  }
+}
+
 .g-recaptcha {
   display: table;
   margin: auto;

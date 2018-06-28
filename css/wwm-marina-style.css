@@ -485,6 +485,9 @@ form#user-pass {
     text-align: center;
     margin-bottom: 0; }
 
+form#user-pass .form-item-name label {
+  width: 280px; }
+
 .g-recaptcha {
   display: table;
   margin: auto; }
