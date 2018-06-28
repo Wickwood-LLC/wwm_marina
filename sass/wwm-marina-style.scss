@@ -1076,13 +1076,13 @@ ul.sf-vertical li ul li ul {
     box-sizing: border-box;
 
     &.active-trail, &.active-trail:nth-child(even) {
-      background-color: #0f753b;
+      background-color: #00728e;
 
       > a {
         color: white;
 
         &:hover {
-          background-color: #0f753b;
+          background-color: #00728e;
         }
       }
     }
@@ -1132,14 +1132,14 @@ ul.sf-vertical li ul li ul {
       border: 0px;
       color: black;
       padding-left: 34px;
-      background-color: inherit;
+      background: inherit;
       border-radius: 0;
 
       &:hover {
-        background-color: #e9efcc;
+        background: #e9efcc;
       }
       &:focus {
-        background-color: initial;
+        background: initial;
       }
     }
   }

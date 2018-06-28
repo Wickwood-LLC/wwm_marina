@@ -191,10 +191,11 @@ html {
   border-top: 3px solid #a7ce38;
   background-color: #2f76a5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background-image: linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   /* webkit */
   background-image: -moz-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* firefox */
@@ -243,7 +244,9 @@ html {
   /* old browsers */
   background-image: linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* w3c */
+  background-image: -o-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4edc2), to(#f5f7e7), color-stop(0%, #e4edc2), color-stop(10%, #f5f7e7));
   /* webkit */
   background-image: -moz-linear-gradient(top, #e4edc2 0%, #f5f7e7 55px);
   /* firefox */
@@ -271,10 +274,11 @@ html {
   border-top: 3px solid #a7ce38;
   background-color: #2f76a5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   background-image: linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f76a5), to(#144a6e));
   /* webkit */
   background-image: -moz-linear-gradient(top, #2f76a5 0%, #144a6e 100%);
   /* firefox */
@@ -424,7 +428,6 @@ html {
 form input.form-submit {
   background-color: #286e9b;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4186b5), color-stop(50%, #286e9b), to(#4186b5));
   background-image: linear-gradient(top, #4186b5 0%, #286e9b 50%, #4186b5 100%);
   /* w3c */
   color: #fff;
@@ -450,36 +453,25 @@ form#user-pass {
   form#user-login .form-item-pass,
   form#user-pass .form-item-name,
   form#user-pass .form-item-pass {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+    flex-flow: row wrap; }
     form#user-login .form-item-name label,
     form#user-login .form-item-pass label,
     form#user-pass .form-item-name label,
     form#user-pass .form-item-pass label {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 auto;
-              flex: 0 auto;
+      flex: 0 auto;
       width: 115px; }
     form#user-login .form-item-name input,
     form#user-login .form-item-pass input,
     form#user-pass .form-item-name input,
     form#user-pass .form-item-pass input {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      flex: 1;
       width: calc(100% - 115px); }
     form#user-login .form-item-name .description,
     form#user-login .form-item-pass .description,
     form#user-pass .form-item-name .description,
     form#user-pass .form-item-pass .description {
-      -webkit-box-flex: 100%;
-          -ms-flex: 100%;
-              flex: 100%; }
+      flex: 100%; }
   form#user-login .form-actions,
   form#user-pass .form-actions {
     text-align: center;
@@ -510,10 +502,11 @@ form input.form-submit.hover,
 form input.form-submit:focus {
   background-color: #4186b5;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#286e9b), color-stop(50%, #4186b5), to(#286e9b));
   background-image: linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#286e9b), to(#286e9b), color-stop(50%, 4186b5));
   /* webkit */
   background-image: -moz-linear-gradient(top, #286e9b 0%, #4186b5 50%, #286e9b 100%);
   /* firefox */
@@ -541,10 +534,11 @@ form input.form-submit:focus {
 .form-item textarea {
   background-color: #f4f8fb;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));
   background-image: linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fb), to(#fafcfb));
   /* webkit */
   background-image: -moz-linear-gradient(top, #f4f8fb 0%, #fafcfb 100%);
   /* firefox */
@@ -714,10 +708,11 @@ ul.sf-horizontal li {
 .main-menu ul.menu > li.active-trail a:visited {
   background-color: #b5ee48;
   /* old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), color-stop(40%, #95cf1a), to(#95cf1a));
   background-image: linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* w3c */
+  background-image: -o-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* opera */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b5ee48), to(#95cf1a), color-stop(40%, #95cf1a));
   /* webkit */
   background-image: -moz-linear-gradient(top, #b5ee48 0%, #95cf1a 40%, #95cf1a 100%);
   /* firefox */
@@ -903,20 +898,18 @@ ul.sf-vertical li ul li ul {
   border: 1px solid #689a04;
   border-top: 0px;
   border-radius: 0 0 10px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%; }
   #superfish-1-accordion li {
     background-color: white;
     border: 1px solid #ddd;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+    box-sizing: border-box; }
     #superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even) {
-      background-color: #0f753b; }
+      background-color: #00728e; }
       #superfish-1-accordion li.active-trail > a, #superfish-1-accordion li.active-trail:nth-child(even) > a {
         color: white; }
         #superfish-1-accordion li.active-trail > a:hover, #superfish-1-accordion li.active-trail:nth-child(even) > a:hover {
-          background-color: #0f753b; }
+          background-color: #00728e; }
     #superfish-1-accordion li.menuparent > a.menuparent:after {
       content: "\f0da";
       font-family: "FontAwesome"; }
@@ -927,8 +920,7 @@ ul.sf-vertical li ul li ul {
         font-family: "FontAwesome"; }
     #superfish-1-accordion li.menuparent > ul {
       padding-left: 10px;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
+      box-sizing: border-box; }
       #superfish-1-accordion li.menuparent > ul > li:last-child {
         border-radius: 0px; }
         #superfish-1-accordion li.menuparent > ul > li:last-child a {
@@ -943,12 +935,12 @@ ul.sf-vertical li ul li ul {
       border: 0px;
       color: black;
       padding-left: 34px;
-      background-color: inherit;
+      background: inherit;
       border-radius: 0; }
       #superfish-1-accordion li a:hover {
-        background-color: #e9efcc; }
+        background: #e9efcc; }
       #superfish-1-accordion li a:focus {
-        background-color: initial; }
+        background: initial; }
 
 /* @end vertical superfish*/
 /* @end menus */
@@ -1398,4 +1390,5 @@ div.poll div.bar div.foreground {
 .fusion-inline-menu ul.links li.last a:visited {
   padding-right: 0;
   border-right: none; }
+
 /*# sourceMappingURL=wwm-marina-style.css.map */
