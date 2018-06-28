@@ -945,9 +945,9 @@ ul.sf-vertical li ul li ul {
         background: #e9efcc; }
       #superfish-1-accordion li a:focus {
         background: initial; }
-  #superfish-1-accordion > li.menuparent.last {
+  #superfish-1-accordion > li.last {
     border-radius: 0 0 10px 10px; }
-    #superfish-1-accordion > li.menuparent.last .last a {
+    #superfish-1-accordion > li.last a {
       border-radius: 0 0 10px 10px; }
 
 /* @end vertical superfish*/

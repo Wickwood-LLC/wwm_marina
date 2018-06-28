@@ -1136,10 +1136,10 @@ ul.sf-vertical li ul li ul {
     }
   }
 
-  > li.menuparent.last {
+  > li.last {
     border-radius: 0 0 10px 10px;
 
-    .last a {
+    a {
       border-radius: 0 0 10px 10px;
     }
   }
