@@ -518,7 +518,8 @@ form input.form-submit {
   border-radius: 4px;
 }
 
-form#user-login {
+form#user-login,
+form#user-pass {
   border: 1px solid #27638c;
   padding: 1em;
   border-radius: 5px;
