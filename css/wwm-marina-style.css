@@ -132,7 +132,7 @@ html {
   margin: 0 15px 0 0; }
 
 .pane-page-logo img {
-  height: 13vw; }
+  height: 10vw; }
 
 #site-name-wrapper {
   float: left; }
@@ -147,7 +147,7 @@ html {
 .pane-page-site-name .pane-content a {
   font-size: 6vw;
   width: 100%;
-  margin-left: -5.5vw;
+  margin-left: -4.5vw;
   line-height: 1;
   text-decoration: none;
   color: #a7cf38;
@@ -165,11 +165,13 @@ html {
   font-size: 1.6vw;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
-  margin-left: 2.2vw;
   color: #444; }
 
 #header-group-inner {
-  padding: 20px 0; }
+  padding: 20px 0 0 0; }
+
+#block-panels_mini-header {
+  margin-bottom: 0; }
 
 /* @end site info & header*/
 /* @group Main menu region
