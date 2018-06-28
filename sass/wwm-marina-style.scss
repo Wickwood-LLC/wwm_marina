@@ -1106,14 +1106,6 @@ ul.sf-vertical li ul li ul {
     &.menuparent>ul{
       padding-left: 10px;
       box-sizing: border-box;
-
-      >li:last-of-type {
-        border-radius: 0px;
-
-        a {
-          border-radius: 0px;
-        }
-      }
     }
 
     &:nth-child(even) {
@@ -1139,7 +1131,7 @@ ul.sf-vertical li ul li ul {
   > li.last {
     border-radius: 0 0 10px 10px;
 
-    a {
+    a, .last a {
       border-radius: 0 0 10px 10px;
     }
   }
