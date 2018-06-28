@@ -929,15 +929,15 @@ ul.sf-vertical li ul li ul {
       padding-left: 10px;
       -webkit-box-sizing: border-box;
               box-sizing: border-box; }
-      #superfish-1-accordion li.menuparent > ul > li:last-child {
+      #superfish-1-accordion li.menuparent > ul > li:last-of-type {
         border-radius: 0px; }
-        #superfish-1-accordion li.menuparent > ul > li:last-child a {
+        #superfish-1-accordion li.menuparent > ul > li:last-of-type a {
           border-radius: 0px; }
     #superfish-1-accordion li:nth-child(even) {
       background-color: #e6e6e6; }
-    #superfish-1-accordion li:last-child {
+    #superfish-1-accordion li:last-of-type {
       border-radius: 0 0 10px 10px; }
-      #superfish-1-accordion li:last-child > a:last-child {
+      #superfish-1-accordion li:last-of-type > a:last-of-type {
         border-radius: 0 0 10px 10px; }
     #superfish-1-accordion li a {
       border: 0px;

@@ -1107,7 +1107,7 @@ ul.sf-vertical li ul li ul {
       padding-left: 10px;
       box-sizing: border-box;
 
-      >li:last-child {
+      >li:last-of-type {
         border-radius: 0px;
 
         a {
@@ -1120,10 +1120,10 @@ ul.sf-vertical li ul li ul {
       background-color: #e6e6e6;
     }
 
-    &:last-child {
+    &:last-of-type {
       border-radius: 0 0 10px 10px;
 
-      > a:last-child {
+      > a:last-of-type {
         border-radius: 0 0 10px 10px;
       }
     }
