@@ -320,7 +320,7 @@ html {
   text-align: center; }
   .pane-menu-menu-footer-links ul.menu li {
     display: inline-block;
-    margin-right: 2em; }
+    margin-right: 0.5em; }
 
 /* @end footer*/
 .ie6 .grid-type-fluid #header-top,
