@@ -1120,7 +1120,7 @@ ul.sf-vertical li ul li ul {
       background-color: #e6e6e6;
     }
 
-    &:last-of-type {
+    > li:last-of-type {
       border-radius: 0 0 10px 10px;
 
       > a:last-of-type {

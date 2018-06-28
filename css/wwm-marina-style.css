@@ -935,9 +935,9 @@ ul.sf-vertical li ul li ul {
           border-radius: 0px; }
     #superfish-1-accordion li:nth-child(even) {
       background-color: #e6e6e6; }
-    #superfish-1-accordion li:last-of-type {
+    #superfish-1-accordion li > li:last-of-type {
       border-radius: 0 0 10px 10px; }
-      #superfish-1-accordion li:last-of-type > a:last-of-type {
+      #superfish-1-accordion li > li:last-of-type > a:last-of-type {
         border-radius: 0 0 10px 10px; }
     #superfish-1-accordion li a {
       border: 0px;
