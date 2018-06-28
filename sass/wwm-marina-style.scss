@@ -851,6 +851,20 @@ ul.sf-horizontal li {
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b5ee48, endColorstr=#95cf1a, GradientType=0);
 }
 
+a.menuparent:after {
+  content: '\f0da';
+  margin-left: 0.5em;
+  font-family: FontAwesome;
+}
+
+a.menuparent.sf-depth-1:after {
+  content: '\f0d7';
+}
+
+.sf-sub-indicator {
+  display: none;
+}
+
 /* @end top level */
 
 /* @group Secondary level styling */
