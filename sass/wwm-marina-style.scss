@@ -1086,7 +1086,7 @@ ul.sf-vertical li ul li ul {
       }
     }
 
-    &.menuparent>a.menuparent:before {
+    &.menuparent>a.menuparent:after {
       content: "\f0da";
       font-family: "FontAwesome";
       margin-right: 10px;
@@ -1097,7 +1097,7 @@ ul.sf-vertical li ul li ul {
       >a.menuparent{
         font-weight: normal;
 
-        &:before {
+        &:after {
           content: "\f0d7";
           font-family: "FontAwesome";
           margin-right: 10px;
