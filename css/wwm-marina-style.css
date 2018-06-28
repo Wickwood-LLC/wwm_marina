@@ -904,7 +904,8 @@ ul.sf-vertical li ul li ul {
   border-top: 0px;
   border-radius: 0 0 10px 10px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  width: 100%; }
   #superfish-1-accordion li {
     background-color: white;
     border: 1px solid #ddd;
@@ -913,21 +914,19 @@ ul.sf-vertical li ul li ul {
     #superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even) {
       background-color: #0f753b; }
       #superfish-1-accordion li.active-trail > a, #superfish-1-accordion li.active-trail:nth-child(even) > a {
-        color: white; }
+        color: white;
+        background-color: inherit;
+        border-radius: 0; }
         #superfish-1-accordion li.active-trail > a:hover, #superfish-1-accordion li.active-trail:nth-child(even) > a:hover {
           background-color: #0f753b; }
     #superfish-1-accordion li.menuparent > a.menuparent:after {
       content: "\f0da";
-      font-family: "FontAwesome";
-      margin-right: 10px;
-      margin-left: -17px; }
+      font-family: "FontAwesome"; }
     #superfish-1-accordion li.menuparent.sf-expanded > a.menuparent {
       font-weight: normal; }
       #superfish-1-accordion li.menuparent.sf-expanded > a.menuparent:after {
         content: "\f0d7";
-        font-family: "FontAwesome";
-        margin-right: 10px;
-        margin-left: -17px; }
+        font-family: "FontAwesome"; }
     #superfish-1-accordion li.menuparent > ul {
       padding-left: 10px;
       -webkit-box-sizing: border-box;
