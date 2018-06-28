@@ -1120,14 +1120,6 @@ ul.sf-vertical li ul li ul {
       background-color: #e6e6e6;
     }
 
-    > li:last-of-type {
-      border-radius: 0 0 10px 10px;
-
-      > a:last-of-type {
-        border-radius: 0 0 10px 10px;
-      }
-    }
-
     a {
       border: 0px;
       color: black;
@@ -1141,6 +1133,14 @@ ul.sf-vertical li ul li ul {
       &:focus {
         background: initial;
       }
+    }
+  }
+
+  > li:last-of-type {
+    border-radius: 0 0 10px 10px;
+
+    > a:last-of-type {
+      border-radius: 0 0 10px 10px;
     }
   }
 }
