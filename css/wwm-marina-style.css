@@ -781,7 +781,8 @@ a.menuparent.sf-depth-1:after {
   filter: alpha(opacity=95);
   border-radius: 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px;
-  -webkit-border-radius: 0 0 5px 5px; }
+  -webkit-border-radius: 0 0 5px 5px;
+  overflow: visible !important; }
 
 .ie7 .block-superfish ul.sf-horizontal li ul,
 .ie7 .block-superfish ul.sf-horizontal li:hover ul {
@@ -899,25 +900,56 @@ ul.sf-vertical li ul li ul {
     background-color: #7bc; }
 
 #superfish-1-accordion {
-  width: 100%;
-  margin-bottom: 1em; }
+  border: 1px solid #689a04;
+  border-top: 0px;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   #superfish-1-accordion li {
-    background-color: #e9eaec;
-    line-height: 1.5;
-    font-size: 16px; }
-    #superfish-1-accordion li.active-trail {
-      background-color: #00728e; }
-      #superfish-1-accordion li.active-trail > a {
+    background-color: white;
+    border: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    #superfish-1-accordion li.active-trail, #superfish-1-accordion li.active-trail:nth-child(even) {
+      background-color: #0f753b; }
+      #superfish-1-accordion li.active-trail > a, #superfish-1-accordion li.active-trail:nth-child(even) > a {
         color: white; }
+        #superfish-1-accordion li.active-trail > a:hover, #superfish-1-accordion li.active-trail:nth-child(even) > a:hover {
+          background-color: #0f753b; }
+    #superfish-1-accordion li.menuparent > a.menuparent:before {
+      content: "\f0da";
+      font-family: "FontAwesome";
+      margin-right: 10px;
+      margin-left: -17px; }
+    #superfish-1-accordion li.menuparent.sf-expanded > a.menuparent {
+      font-weight: normal; }
+      #superfish-1-accordion li.menuparent.sf-expanded > a.menuparent:before {
+        content: "\f0d7";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+        margin-left: -17px; }
+    #superfish-1-accordion li.menuparent > ul {
+      padding-left: 10px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      #superfish-1-accordion li.menuparent > ul > li:last-child {
+        border-radius: 0px; }
+        #superfish-1-accordion li.menuparent > ul > li:last-child a {
+          border-radius: 0px; }
+    #superfish-1-accordion li:nth-child(even) {
+      background-color: #e6e6e6; }
     #superfish-1-accordion li:last-child {
       border-radius: 0 0 10px 10px; }
-    #superfish-1-accordion li:hover {
-      background-color: #9ec5d0; }
-      #superfish-1-accordion li:hover > a {
-        color: white; }
+      #superfish-1-accordion li:last-child > a:last-child {
+        border-radius: 0 0 10px 10px; }
     #superfish-1-accordion li a {
-      color: #00728e;
-      background: transparent; }
+      border: 0px;
+      color: black;
+      padding-left: 34px; }
+      #superfish-1-accordion li a:hover {
+        background-color: #e9efcc; }
+      #superfish-1-accordion li a:focus {
+        background-color: initial; }
 
 /* @end vertical superfish*/
 /* @end menus */

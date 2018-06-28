@@ -884,6 +884,7 @@ a.menuparent.sf-depth-1:after {
   border-radius: 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
+  overflow: visible !important;
 }
 
 .ie7 .block-superfish ul.sf-horizontal li ul,
@@ -1027,38 +1028,120 @@ ul.sf-vertical li ul li ul {
   }
 }
 
+// #superfish-1-accordion {
+//   width: 100%;
+//   margin-bottom: 1em;
+
+//   li {
+//     background-color: #e9eaec;
+//     line-height: 1.5;
+//     font-size: 16px;
+
+//     &.active-trail {
+//       background-color: #00728e;
+
+//       > a {
+//         color: white;
+//       }
+//     }
+
+//     &:last-child {
+//       border-radius: 0 0 10px 10px;
+//     }
+
+//     &:hover {
+//       background-color: #9ec5d0;
+
+//       > a {
+//         color: white;
+//       }
+//     }
+
+//     a {
+//       color: #00728e;
+//       background: transparent;
+//     }
+//   }
+// }
 #superfish-1-accordion {
-  width: 100%;
-  margin-bottom: 1em;
+  border: 1px solid #689a04;
+  border-top: 0px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
 
   li {
-    background-color: #e9eaec;
-    line-height: 1.5;
-    font-size: 16px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
 
-    &.active-trail {
-      background-color: #00728e;
+    &.active-trail, &.active-trail:nth-child(even) {
+      background-color: #0f753b;
 
       > a {
         color: white;
+
+        &:hover {
+          background-color: #0f753b;
+        }
       }
+    }
+
+    &.menuparent>a.menuparent:before {
+      content: "\f0da";
+      font-family: "FontAwesome";
+      margin-right: 10px;
+      margin-left: -17px;
+    }
+
+    &.menuparent.sf-expanded{
+      >a.menuparent{
+        font-weight: normal;
+
+        &:before {
+          content: "\f0d7";
+          font-family: "FontAwesome";
+          margin-right: 10px;
+          margin-left: -17px;
+        }
+      }
+    }
+
+    &.menuparent>ul{
+      padding-left: 10px;
+      box-sizing: border-box;
+
+      >li:last-child {
+        border-radius: 0px;
+
+        a {
+          border-radius: 0px;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      background-color: #e6e6e6;
     }
 
     &:last-child {
       border-radius: 0 0 10px 10px;
-    }
 
-    &:hover {
-      background-color: #9ec5d0;
-
-      > a {
-        color: white;
+      > a:last-child {
+        border-radius: 0 0 10px 10px;
       }
     }
 
     a {
-      color: #00728e;
-      background: transparent;
+      border: 0px;
+      color: black;
+      padding-left: 34px;
+
+      &:hover {
+        background-color: #e9efcc;
+      }
+      &:focus {
+        background-color: initial;
+      }
     }
   }
 }
