@@ -1080,8 +1080,6 @@ ul.sf-vertical li ul li ul {
 
       > a {
         color: white;
-        background-color: inherit;
-        border-radius: 0;
 
         &:hover {
           background-color: #0f753b;
@@ -1134,6 +1132,8 @@ ul.sf-vertical li ul li ul {
       border: 0px;
       color: black;
       padding-left: 34px;
+      background-color: inherit;
+      border-radius: 0;
 
       &:hover {
         background-color: #e9efcc;
