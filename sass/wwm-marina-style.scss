@@ -1136,10 +1136,10 @@ ul.sf-vertical li ul li ul {
     }
   }
 
-  > li:last-of-type {
+  > li.menuparent.last {
     border-radius: 0 0 10px 10px;
 
-    > a:last-of-type {
+    .last a {
       border-radius: 0 0 10px 10px;
     }
   }
