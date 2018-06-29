@@ -1,4 +1,5 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import url('https://fonts.googleapis.com/css?family=Yesteryear');
 /* @group Basic Typography
 -------------------------------------------------------------- */
 
@@ -708,6 +709,28 @@ legend.collapse-processed a:visited {
 
 /* @group Maintenance page
 /-------------------------------------------------------------- */
+
+.maintenance-page {
+  #header-site-info {
+    width: 100%;
+  }
+
+  .site-logo {
+    float: left;
+  }
+
+  h1.site-name {
+    clear: none;
+
+    a {
+      font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    }
+  }
+
+  .site-slogan {
+    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  }
+}
 
 /* @end maintenance page*/
 

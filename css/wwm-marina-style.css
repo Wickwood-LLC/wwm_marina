@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Yesteryear");
 /* @group Basic Typography
 -------------------------------------------------------------- */
 /* Add general site styling here for typography and background */
@@ -626,6 +627,20 @@ legend.collapse-processed a:visited {
 /* @end forms*/
 /* @group Maintenance page
 /-------------------------------------------------------------- */
+.maintenance-page #header-site-info {
+  width: 100%; }
+
+.maintenance-page .site-logo {
+  float: left; }
+
+.maintenance-page h1.site-name {
+  clear: none; }
+  .maintenance-page h1.site-name a {
+    font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+.maintenance-page .site-slogan {
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif; }
+
 /* @end maintenance page*/
 /* @group Menus
 /-------------------------------------------------------------- */
