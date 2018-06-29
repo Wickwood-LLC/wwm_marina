@@ -711,8 +711,18 @@ legend.collapse-processed a:visited {
 /-------------------------------------------------------------- */
 
 .maintenance-page {
+  #header-group-wrapper {
+    display: inline-block;
+  }
+
   #header-site-info {
     width: 100%;
+  }
+
+  #header-site-info-inner {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 
   .site-logo {
@@ -722,6 +732,7 @@ legend.collapse-processed a:visited {
   h1.site-name {
     clear: none;
     border: 0;
+    align-self: start;
 
     a {
       font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -736,12 +747,19 @@ legend.collapse-processed a:visited {
   }
 
   .site-slogan {
+    position: absolute;
+    top: 130px;
+    margin-left: 45px;
     line-height: 1;
     font-size: 25px;
     font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
     font-weight: bold;
     color: #444;
     border: 0;
+  }
+
+  #content-region {
+    text-align: center;
   }
 }
 
