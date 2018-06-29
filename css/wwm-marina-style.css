@@ -1428,7 +1428,8 @@ div.poll div.bar div.foreground {
   padding-right: 0;
   border-right: none; }
 
-.boxed {
+.boxed,
+.page-admin #content-region {
   background-color: white;
   border-color: #27638c;
   border-style: solid;
