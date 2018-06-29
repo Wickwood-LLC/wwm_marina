@@ -167,6 +167,9 @@ html {
 .pane-page-logo img {
   height: 10vw;
 
+  @include breakpoint(960px){
+    height: 119px;
+  }
   @include breakpoint(1200px){
     height: 192px;
   }
@@ -193,8 +196,13 @@ html {
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px;
 
+  @include breakpoint(960px){
+    font-size: 72px;
+    margin-left: -60px;
+  }
   @include breakpoint(1200px) {
     font-size: 116px;
+    margin-left: -90px;
   }
 }
 
@@ -213,8 +221,13 @@ html {
   font-weight: bold;
   color: #444;
 
+  @include breakpoint(960px){
+    font-size: 19px;
+    margin-left: -12px;
+  }
   @include breakpoint(1200px){
     font-size: 30px;
+    margin-left: 29px;
   }
 }
 

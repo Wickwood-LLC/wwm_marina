@@ -133,6 +133,9 @@ html {
 
 .pane-page-logo img {
   height: 10vw; }
+  @media (min-width: 960px) {
+    .pane-page-logo img {
+      height: 119px; } }
   @media (min-width: 1200px) {
     .pane-page-logo img {
       height: 192px; } }
@@ -155,9 +158,14 @@ html {
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px; }
+  @media (min-width: 960px) {
+    .pane-page-site-name .pane-content a {
+      font-size: 72px;
+      margin-left: -60px; } }
   @media (min-width: 1200px) {
     .pane-page-site-name .pane-content a {
-      font-size: 116px; } }
+      font-size: 116px;
+      margin-left: -90px; } }
 
 /* Typography for site slogan */
 #slogan {
@@ -172,9 +180,14 @@ html {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444; }
+  @media (min-width: 960px) {
+    .pane-page-slogan {
+      font-size: 19px;
+      margin-left: -12px; } }
   @media (min-width: 1200px) {
     .pane-page-slogan {
-      font-size: 30px; } }
+      font-size: 30px;
+      margin-left: 29px; } }
 
 #header-group-inner {
   padding: 20px 0 0 0; }
