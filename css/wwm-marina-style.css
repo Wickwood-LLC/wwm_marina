@@ -136,6 +136,9 @@ html {
   @media (min-width: 768px) {
     .pane-page-logo img {
       height: 119px; } }
+  @media (min-width: 960px) {
+    .pane-page-logo img {
+      height: 170px; } }
   @media (min-width: 1200px) {
     .pane-page-logo img {
       height: 192px; } }
@@ -162,6 +165,10 @@ html {
     .pane-page-site-name .pane-content a {
       font-size: 72px;
       margin-left: -60px; } }
+  @media (min-width: 960px) {
+    .pane-page-site-name .pane-content a {
+      font-size: 98px;
+      margin-left: -77px; } }
   @media (min-width: 1200px) {
     .pane-page-site-name .pane-content a {
       font-size: 116px;
@@ -184,6 +191,10 @@ html {
     .pane-page-slogan {
       font-size: 19px;
       margin-left: -12px; } }
+  @media (min-width: 960px) {
+    .pane-page-slogan {
+      font-size: 24px;
+      margin-left: 18px; } }
   @media (min-width: 1200px) {
     .pane-page-slogan {
       font-size: 30px;
