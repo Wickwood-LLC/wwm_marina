@@ -675,7 +675,8 @@ legend.collapse-processed a:visited {
   border: 0; }
 
 .maintenance-page #content-region {
-  text-align: center; }
+  text-align: center;
+  margin-top: 5em; }
 
 /* @end maintenance page*/
 /* @group Menus
