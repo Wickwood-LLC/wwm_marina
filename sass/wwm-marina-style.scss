@@ -165,9 +165,9 @@ html {
 }
 
 .pane-page-logo img {
-  height: 10vw;
+  height: 18vw;
 
-  @include breakpoint(960px){
+  @include breakpoint(768px){
     height: 119px;
   }
   @include breakpoint(1200px){
@@ -188,15 +188,15 @@ html {
 }
 
 .pane-page-site-name .pane-content a {
-  font-size: 6vw;
+  font-size: 10vw;
   width: 100%;
-  margin-left: -4.5vw;
+  margin-left: -8.5vw;
   line-height: 1;
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px;
 
-  @include breakpoint(960px){
+  @include breakpoint(768px){
     font-size: 72px;
     margin-left: -60px;
   }
@@ -216,12 +216,12 @@ html {
 
 .pane-page-slogan {
   line-height: 1;
-  font-size: 1.6vw;
+  font-size: 2.5vw;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444;
 
-  @include breakpoint(960px){
+  @include breakpoint(768px){
     font-size: 19px;
     margin-left: -12px;
   }
