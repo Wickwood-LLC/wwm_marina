@@ -23,10 +23,30 @@
     <div id="page-inner" class="page-inner">
 
       <!-- header-group region: width = grid_width -->
-      <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
+      <div id="header-group-wrapper" class="header-group-wrapper full-width">
         <div id="header-group" class="header-group region <?php print $grid_width; ?>">
-          <div id="header-group-inner" class="header-group-inner inner clearfix">
-            <?php print render($page['header']); ?>
+          <div id="header-group-inner" class="header-group-inner inner">
+            <?php if ($logo || $site_name || $site_slogan): ?>
+            <div id="header-site-info" class="header-site-info block">
+              <div id="header-site-info-inner" class="header-site-info-inner inner">
+                <?php if ($site_name || $site_slogan): ?>
+                  <?php if ($site_name): ?>
+                    <h1 class="site-name">
+                      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                    </h1>
+                  <?php endif; ?>
+
+                  <?php if ($logo): ?>
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+                  <?php endif; ?>
+
+                  <?php if ($site_slogan): ?>
+                    <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
+                  <?php endif; ?>
+                <?php endif; ?>
+              </div><!-- /header-site-info-inner -->
+            </div><!-- /header-site-info -->
+            <?php endif; ?>
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->
