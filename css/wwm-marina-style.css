@@ -133,6 +133,9 @@ html {
 
 .pane-page-logo img {
   height: 10vw; }
+  @media (min-width: 1200px) {
+    .pane-page-logo img {
+      height: 192px; } }
 
 #site-name-wrapper {
   float: left; }
@@ -143,6 +146,9 @@ html {
   line-height: 125%;
   font-weight: normal;
   border: none; }
+  @media (min-width: 1200px) {
+    #site-name {
+      font-size: 116px; } }
 
 .pane-page-site-name .pane-content a {
   font-size: 6vw;
@@ -166,6 +172,9 @@ html {
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
   color: #444; }
+  @media (min-width: 1200px) {
+    .pane-page-slogan {
+      font-size: 30px; } }
 
 #header-group-inner {
   padding: 20px 0 0 0; }
