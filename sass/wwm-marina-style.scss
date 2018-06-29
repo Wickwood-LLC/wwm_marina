@@ -182,10 +182,6 @@ html {
   line-height: 125%;
   font-weight: normal;
   border: none;
-
-  @include breakpoint(1200px) {
-    font-size: 116px;
-  }
 }
 
 .pane-page-site-name .pane-content a {
@@ -196,6 +192,10 @@ html {
   text-decoration: none;
   color: #a7cf38;
   text-shadow: #7b7b7b -3px 0px 1px;
+
+  @include breakpoint(1200px) {
+    font-size: 116px;
+  }
 }
 
 /* Typography for site slogan */
