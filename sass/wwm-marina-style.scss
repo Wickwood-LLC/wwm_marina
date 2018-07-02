@@ -156,6 +156,17 @@ html {
       flex: 0.5 1 100px;
     }
   }
+
+  .middle-column {
+    .pane-widgets-s-socialmedia-share-default {
+      text-align: center;
+      margin-top: 1em;
+
+      a img {
+        width: 4.4vw;
+      }
+    }
+  }
 }
 
 /* @end header top*/
