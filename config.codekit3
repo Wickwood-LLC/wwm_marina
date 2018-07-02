@@ -564,16 +564,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/sample.responsive.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/sample.responsive-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/wwm-marina-style-rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -599,6 +589,23 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/wwm-marina-style.css.map",
+		"oF": 0
+		},
+	"\/css\/wwm-marina.responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/wwm-marina.responsive-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/wwm-marina.responsive.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/wwm-marina.responsive.css.map",
 		"oF": 0
 		},
 	"\/favicon.ico": {
@@ -656,6 +663,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/wwm-marina-style.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/wwm-marina.responsive.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/wwm-marina.responsive.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
