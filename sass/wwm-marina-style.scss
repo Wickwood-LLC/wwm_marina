@@ -14,7 +14,7 @@ h1 {
   clear: left;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-size: 183.3%; /* 22px/12px */
-  font-weight: bold;
+  font-weight: normal;
   line-height: 120%;
   margin-bottom: 5px;
 }
@@ -146,6 +146,16 @@ html {
 #header-top-wrapper {
   background: #e1e1e1;
   border-bottom: 1px solid #ccc;
+}
+
+#wwm-collapse-3 {
+  .left-column, .right-column {
+    flex: 0.5 1 8.5%px;
+
+    @include breakpoint(740px){
+      flex: 0.5 1 100px;
+    }
+  }
 }
 
 /* @end header top*/
