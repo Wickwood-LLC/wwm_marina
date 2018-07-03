@@ -988,11 +988,13 @@ ul.sf-vertical li ul li ul {
   color: white;
   border-radius: 10px;
   line-height: 1.5;
-  padding: 0.5em 1em;
+  padding: 0.25em 1em;
   font-size: 18px;
+  /* fallback */
+  font-size: calc(12px + 1vw);
   font-weight: bold;
   text-decoration: none;
-  margin-bottom: 1em; }
+  margin-bottom: 0.5em; }
   #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0;
