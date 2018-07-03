@@ -132,7 +132,9 @@ html {
 
 #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default {
   text-align: center;
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-left: calc(-16% - 28px);
+  width: calc(100vw - 28px); }
   #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default a img {
     width: 4.4vw; }
 
