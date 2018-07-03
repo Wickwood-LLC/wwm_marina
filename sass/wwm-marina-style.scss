@@ -152,7 +152,7 @@ html {
   .left-column, .right-column {
     flex: 0.5 1 8.5%px;
 
-    @include breakpoint(740px){
+    @include breakpoint(720px){
       flex: 0.5 1 100px;
     }
   }

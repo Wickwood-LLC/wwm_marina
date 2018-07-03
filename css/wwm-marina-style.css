@@ -124,7 +124,7 @@ html {
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5 1 8.5% px;
           flex: 0.5 1 8.5% px; }
-  @media (min-width: 740px) {
+  @media (min-width: 720px) {
     #wwm-collapse-3 .left-column, #wwm-collapse-3 .right-column {
       -webkit-box-flex: 0.5;
           -ms-flex: 0.5 1 100px;
