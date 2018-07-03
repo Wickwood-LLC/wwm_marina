@@ -1555,7 +1555,7 @@ div.poll div.bar div.foreground {
   body .grid12-12 {
     width: 100%; } }
 
-.field-name-title-field {
+.field-name-title-field h1 {
   text-align: center;
   margin-bottom: 1em;
   border: 0; }
