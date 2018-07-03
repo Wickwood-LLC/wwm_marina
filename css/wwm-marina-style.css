@@ -723,11 +723,13 @@ legend.collapse-processed a:visited {
   @media (min-width: 960px) {
     .maintenance-page .site-slogan {
       font-size: 24px;
-      margin-left: 40px; } }
+      margin-left: 40px;
+      top: 128px; } }
   @media (min-width: 1200px) {
     .maintenance-page .site-slogan {
       font-size: 30px;
-      margin-left: 45px; } }
+      margin-left: 45px;
+      top: 147px; } }
 
 .maintenance-page #content-region {
   text-align: center;

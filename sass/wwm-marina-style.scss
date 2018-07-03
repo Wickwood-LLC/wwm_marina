@@ -817,10 +817,12 @@ legend.collapse-processed a:visited {
     @include breakpoint(960px){
       font-size: 24px;
       margin-left: 40px;
+      top: 128px;
     }
     @include breakpoint(1200px){
       font-size: 30px;
       margin-left: 45px;
+      top: 147px;
     }
   }
 
