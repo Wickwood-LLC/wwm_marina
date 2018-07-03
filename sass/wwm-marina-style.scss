@@ -776,7 +776,7 @@ legend.collapse-processed a:visited {
       font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
       font-size: 10vw;
       width: 100%;
-      margin-left: -8.5vw;
+      margin-left: -5.5vw;
       line-height: 1;
       text-decoration: none;
       color: #a7cf38;
@@ -784,23 +784,23 @@ legend.collapse-processed a:visited {
 
       @include breakpoint(768px){
         font-size: 72px;
-        margin-left: -60px;
+        margin-left: -37px;
       }
       @include breakpoint(960px){
         font-size: 98px;
-        margin-left: -77px;
+        margin-left: -54px;
       }
       @include breakpoint(1200px) {
         font-size: 116px;
-        margin-left: -90px;
+        margin-left: -63px;
       }
     }
   }
 
   .site-slogan {
     position: absolute;
-    top: 130px;
-    margin-left: 45px;
+    top: calc(8.5vw + 39px);
+    margin-left: 4vw;
     border: 0;
 
     line-height: 1;
@@ -811,15 +811,16 @@ legend.collapse-processed a:visited {
 
     @include breakpoint(768px){
       font-size: 19px;
-      margin-left: -12px;
+      margin-left: 27px;
+      top: 100px;
     }
     @include breakpoint(960px){
       font-size: 24px;
-      margin-left: 18px;
+      margin-left: 40px;
     }
     @include breakpoint(1200px){
       font-size: 30px;
-      margin-left: 29px;
+      margin-left: 45px;
     }
   }
 

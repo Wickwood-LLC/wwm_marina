@@ -687,7 +687,7 @@ legend.collapse-processed a:visited {
     font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
     font-size: 10vw;
     width: 100%;
-    margin-left: -8.5vw;
+    margin-left: -5.5vw;
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
@@ -695,20 +695,20 @@ legend.collapse-processed a:visited {
     @media (min-width: 768px) {
       .maintenance-page h1.site-name a {
         font-size: 72px;
-        margin-left: -60px; } }
+        margin-left: -37px; } }
     @media (min-width: 960px) {
       .maintenance-page h1.site-name a {
         font-size: 98px;
-        margin-left: -77px; } }
+        margin-left: -54px; } }
     @media (min-width: 1200px) {
       .maintenance-page h1.site-name a {
         font-size: 116px;
-        margin-left: -90px; } }
+        margin-left: -63px; } }
 
 .maintenance-page .site-slogan {
   position: absolute;
-  top: 130px;
-  margin-left: 45px;
+  top: calc(8.5vw + 39px);
+  margin-left: 4vw;
   border: 0;
   line-height: 1;
   font-size: 2.5vw;
@@ -718,15 +718,16 @@ legend.collapse-processed a:visited {
   @media (min-width: 768px) {
     .maintenance-page .site-slogan {
       font-size: 19px;
-      margin-left: -12px; } }
+      margin-left: 27px;
+      top: 100px; } }
   @media (min-width: 960px) {
     .maintenance-page .site-slogan {
       font-size: 24px;
-      margin-left: 18px; } }
+      margin-left: 40px; } }
   @media (min-width: 1200px) {
     .maintenance-page .site-slogan {
       font-size: 30px;
-      margin-left: 29px; } }
+      margin-left: 45px; } }
 
 .maintenance-page #content-region {
   text-align: center;
