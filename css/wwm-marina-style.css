@@ -1546,7 +1546,7 @@ div.poll div.bar div.foreground {
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
-  padding: 10px;
+  padding: 1em;
   margin: 1em 0; }
 
 /* iPad: landscape. */
@@ -1557,6 +1557,6 @@ div.poll div.bar div.foreground {
 
 .field-name-title-field h1 {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.67em;
   border: 0; }
 /*# sourceMappingURL=wwm-marina-style.css.map */
