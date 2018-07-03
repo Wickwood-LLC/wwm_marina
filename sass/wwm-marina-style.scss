@@ -751,6 +751,20 @@ legend.collapse-processed a:visited {
 
   .site-logo {
     float: left;
+
+    img {
+      height: 18vw;
+
+      @include breakpoint(768px){
+        height: 119px;
+      }
+      @include breakpoint(960px){
+        height: 170px;
+      }
+      @include breakpoint(1200px){
+        height: 192px;
+      }
+    }
   }
 
   h1.site-name {
@@ -760,13 +774,26 @@ legend.collapse-processed a:visited {
 
     a {
       font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
-      font-size: 100px;
+      font-size: 10vw;
       width: 100%;
-      margin-left: -52px;
+      margin-left: -8.5vw;
       line-height: 1;
       text-decoration: none;
       color: #a7cf38;
-      text-shadow: #7b7b7b -3px 0px
+      text-shadow: #7b7b7b -3px 0px 1px;
+
+      @include breakpoint(768px){
+        font-size: 72px;
+        margin-left: -60px;
+      }
+      @include breakpoint(960px){
+        font-size: 98px;
+        margin-left: -77px;
+      }
+      @include breakpoint(1200px) {
+        font-size: 116px;
+        margin-left: -90px;
+      }
     }
   }
 
@@ -774,12 +801,26 @@ legend.collapse-processed a:visited {
     position: absolute;
     top: 130px;
     margin-left: 45px;
+    border: 0;
+
     line-height: 1;
-    font-size: 25px;
+    font-size: 2.5vw;
     font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
     font-weight: bold;
     color: #444;
-    border: 0;
+
+    @include breakpoint(768px){
+      font-size: 19px;
+      margin-left: -12px;
+    }
+    @include breakpoint(960px){
+      font-size: 24px;
+      margin-left: 18px;
+    }
+    @include breakpoint(1200px){
+      font-size: 30px;
+      margin-left: 29px;
+    }
   }
 
   #content-region {

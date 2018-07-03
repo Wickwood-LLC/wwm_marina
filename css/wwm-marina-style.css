@@ -666,6 +666,17 @@ legend.collapse-processed a:visited {
 
 .maintenance-page .site-logo {
   float: left; }
+  .maintenance-page .site-logo img {
+    height: 18vw; }
+    @media (min-width: 768px) {
+      .maintenance-page .site-logo img {
+        height: 119px; } }
+    @media (min-width: 960px) {
+      .maintenance-page .site-logo img {
+        height: 170px; } }
+    @media (min-width: 1200px) {
+      .maintenance-page .site-logo img {
+        height: 192px; } }
 
 .maintenance-page h1.site-name {
   clear: none;
@@ -674,24 +685,48 @@ legend.collapse-processed a:visited {
       align-self: start; }
   .maintenance-page h1.site-name a {
     font-family: 'Yesteryear', Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 10vw;
     width: 100%;
-    margin-left: -52px;
+    margin-left: -8.5vw;
     line-height: 1;
     text-decoration: none;
     color: #a7cf38;
-    text-shadow: #7b7b7b -3px 0px; }
+    text-shadow: #7b7b7b -3px 0px 1px; }
+    @media (min-width: 768px) {
+      .maintenance-page h1.site-name a {
+        font-size: 72px;
+        margin-left: -60px; } }
+    @media (min-width: 960px) {
+      .maintenance-page h1.site-name a {
+        font-size: 98px;
+        margin-left: -77px; } }
+    @media (min-width: 1200px) {
+      .maintenance-page h1.site-name a {
+        font-size: 116px;
+        margin-left: -90px; } }
 
 .maintenance-page .site-slogan {
   position: absolute;
   top: 130px;
   margin-left: 45px;
+  border: 0;
   line-height: 1;
-  font-size: 25px;
+  font-size: 2.5vw;
   font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
   font-weight: bold;
-  color: #444;
-  border: 0; }
+  color: #444; }
+  @media (min-width: 768px) {
+    .maintenance-page .site-slogan {
+      font-size: 19px;
+      margin-left: -12px; } }
+  @media (min-width: 960px) {
+    .maintenance-page .site-slogan {
+      font-size: 24px;
+      margin-left: 18px; } }
+  @media (min-width: 1200px) {
+    .maintenance-page .site-slogan {
+      font-size: 30px;
+      margin-left: 29px; } }
 
 .maintenance-page #content-region {
   text-align: center;
