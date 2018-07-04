@@ -78,7 +78,10 @@
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->
       <?php print render($page['main_menu']); ?>
-      <div class="preface-top-outer"><?php print render($page['preface_top']); ?></div>
+      <div class="preface-top-outer">
+        <?php print render($page['preface_top']); ?>
+        <?php print theme('grid_block', array('content' => $breadcrumb, 'id' => 'breadcrumbs')); ?>
+      </div>
 
       <!-- main region: width = grid_width -->
       <div id="main-wrapper" class="main-wrapper full-width clearfix">
@@ -96,7 +99,6 @@
                     <!-- content group: width = grid_width - sidebar_first_width - sidebar_second_width -->
                     <div id="content-group" class="content-group region nested <?php print $content_group_width; ?>">
                       <div id="content-group-inner" class="content-group-inner inner">
-                        <?php print theme('grid_block', array('content' => $breadcrumb, 'id' => 'breadcrumbs')); ?>
                         <?php print theme('grid_block', array('content' => render($tabs), 'id' => 'content-tabs')); ?>
                         <?php print theme('grid_block', array('content' => $messages, 'id' => 'content-messages')); ?>
 
