@@ -465,20 +465,23 @@ html {
 
 #breadcrumbs-inner {
   width: 100%;
-  margin: auto;
+  margin: 0 1em;
 
   @include breakpoint(768px) {
     width: 768px;
+    margin: auto;
   }
   @include breakpoint(960px) {
     width: 100%;
+    margin: 0 1em;
   }
   @include breakpoint(1200px) {
     width: 1200px;
+    margin: auto;
   }
 
   .breadcrumb {
-    padding-botom: 0;
+    padding-bottom: 0;
 
     a {
       color: white;

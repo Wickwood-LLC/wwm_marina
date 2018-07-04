@@ -388,18 +388,21 @@ html {
 
 #breadcrumbs-inner {
   width: 100%;
-  margin: auto; }
+  margin: 0 1em; }
   @media (min-width: 768px) {
     #breadcrumbs-inner {
-      width: 768px; } }
+      width: 768px;
+      margin: auto; } }
   @media (min-width: 960px) {
     #breadcrumbs-inner {
-      width: 100%; } }
+      width: 100%;
+      margin: 0 1em; } }
   @media (min-width: 1200px) {
     #breadcrumbs-inner {
-      width: 1200px; } }
+      width: 1200px;
+      margin: auto; } }
   #breadcrumbs-inner .breadcrumb {
-    padding-botom: 0; }
+    padding-bottom: 0; }
     #breadcrumbs-inner .breadcrumb a {
       color: white;
       line-height: 30px;
