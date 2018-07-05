@@ -41,7 +41,7 @@ link style */
 a,
 a:link,
 a:visited {
-  color: #27638c;
+  color: #0637fb;
 }
 
 /* Hover/active link styles. Don't forget :focus for accessibility */
@@ -79,7 +79,13 @@ ul li {
   list-style: none;
   list-style-image: none;
   margin-bottom: 5px;
-  padding: 0 0 0 15px;
+  padding: 0;
+}
+
+.action-links {
+  li {
+    display: inline-block;
+  }
 }
 
 blockquote p {
