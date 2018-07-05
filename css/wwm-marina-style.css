@@ -1728,4 +1728,22 @@ div.poll div.bar div.foreground {
 .pane-press-releases2-panel-pane-5 .views-field-published-at,
 .pane-panopoly-faq-panel-pane-6 .views-field-published-at {
   font-size: 0.8em; }
+
+/**************************************************************************/
+/* Desktop display. */
+/* Uncomment this query to included css overrides for this device width */
+/* iPad: landscape. */
+/* Uncomment this query to included css overrides for this device width */
+@media only screen and (max-device-width: 1024px) and (orientation: landscape), only screen and (min-width: 960px) and (max-width: 1199px) and (min-device-width: 1100px) {
+  body .grid12-12 {
+    width: 100%;
+    max-width: 100%; } }
+
+/* iPad: portrait. */
+/* Uncomment this query to included css overrides for this device width */
+/* Mobile display. */
+/* Uncomment this query to included css overrides for this device width */
+@media only screen and (max-width: 759px) {
+  body, div.full-width {
+    min-width: 0; } }
 /*# sourceMappingURL=wwm-marina-style.css.map */
