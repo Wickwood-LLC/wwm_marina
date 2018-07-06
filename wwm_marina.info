@@ -97,4 +97,12 @@ settings[grid_adjusted_regions_fluid][content][] = sidebar_second
 ; Regions inside a parent group to subtract to get remaining width
 settings[grid_adjusted_groups_fluid][content_group][] = sidebar_second
 
+; Default theme settings
+settings[theme_grid] = grid16-960
+settings[fluid_grid_width] = fluid-100
+settings[theme_font_size] = font-size-16
+settings[sidebar_layout] = sidebars-split
+settings[sidebar_first_width] = 3
+settings[sidebar_last_width] = 3
+
 
